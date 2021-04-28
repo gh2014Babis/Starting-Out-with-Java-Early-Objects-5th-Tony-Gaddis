@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Jan 15 01:13:33 EET 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0177-032c-f2c9-000006e3e708 
+on database directory E:\BABIS\Programming\Java\Java Early Objects\Ch16\PhoneBook with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/E:/BABIS/Programming/Java/Java%20Early%20Objects/Ch16/src/libs/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_271-b09
+user.dir=E:\BABIS\Programming\Java\Java Early Objects\Ch16
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
