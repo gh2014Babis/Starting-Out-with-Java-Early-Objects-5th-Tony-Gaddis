@@ -1,1 +1,1 @@
-Programming Challenges for Chapter 15 Recursion
+Programming Challenges of Chapter 15 Recursion
