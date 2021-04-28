@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="230.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8.0.271" xmlns:fx="http://javafx.com/fxml/1" fx:controller="challenges.Challenge06Controller">
+   <children>
+      <ImageView fx:id="coinImage" fitHeight="81.0" fitWidth="90.0" layoutX="80.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="tossButton" layoutX="105.0" layoutY="178.0" mnemonicParsing="false" onAction="#tossButtonListener" text="Toss" />
+   </children>
+</AnchorPane>

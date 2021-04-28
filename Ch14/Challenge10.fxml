@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/8.0.271" xmlns:fx="http://javafx.com/fxml/1" fx:controller="challenges.Challenge10Controller">
+   <children>
+      <ImageView fx:id="imgView1" fitHeight="130.0" fitWidth="130.0" layoutX="14.0" layoutY="15.0" onMouseClicked="#imgView1Listener" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TicTacToe/empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView2" fitHeight="130.0" fitWidth="130.0" layoutX="148.0" layoutY="15.0" onMouseClicked="#imgView2Listener" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TicTacToe/empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView3" fitHeight="130.0" fitWidth="130.0" layoutX="282.0" layoutY="15.0" onMouseClicked="#imgView3Listener" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TicTacToe/empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView4" fitHeight="130.0" fitWidth="130.0" layoutX="14.0" layoutY="149.0" onMouseClicked="#imgView4Listener" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TicTacToe/empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView5" fitHeight="130.0" fitWidth="130.0" layoutX="148.0" layoutY="149.0" onMouseClicked="#imgView5Listener" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TicTacToe/empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView6" fitHeight="130.0" fitWidth="130.0" layoutX="282.0" layoutY="149.0" onMouseClicked="#imgView6Listener" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TicTacToe/empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView7" fitHeight="130.0" fitWidth="130.0" layoutX="14.0" layoutY="283.0" onMouseClicked="#imgView7Listener" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TicTacToe/empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView8" fitHeight="130.0" fitWidth="130.0" layoutX="148.0" layoutY="283.0" onMouseClicked="#imgView8Listener" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TicTacToe/empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView9" fitHeight="130.0" fitWidth="130.0" layoutX="282.0" layoutY="283.0" onMouseClicked="#imgView9Listener" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TicTacToe/empty.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="175.0" layoutY="420.0" mnemonicParsing="false" onAction="#newGameButtonListener" text="New Game" />
+      <Label fx:id="resultLabel" alignment="CENTER" layoutX="124.0" layoutY="452.0" prefHeight="27.0" prefWidth="179.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
